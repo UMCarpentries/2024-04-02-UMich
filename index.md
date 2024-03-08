@@ -18,7 +18,7 @@ helper: ["Peter Cerda", "Richie Hodel", "Cindy Sopko"]     # boxed, comma-separa
 email: ["pschloss@umich.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2024-04-02-umich # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2023-10-12-umich)
 eventbrite: ""          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-googleform: "https://forms.gle/LxdVqS6Co15XM7fJA"
+googleform: "https://forms.gle/fptkWALzPvjdPjLs9"
 material: "R for Plotting, The Unix Shell, Intro to git & GitHub, R for Data Analysis, Writing Reports with R Markdown"
 ---
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
