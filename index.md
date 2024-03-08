@@ -18,6 +18,7 @@ helper: ["Peter Cerda", "Richie Hodel", "Cindy Sopko"]     # boxed, comma-separa
 email: ["pschloss@umich.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2024-04-02-umich # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2023-10-12-umich)
 eventbrite: ""          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+googleform: "https://forms.gle/LxdVqS6Co15XM7fJA"
 material: "R for Plotting, The Unix Shell, Intro to git & GitHub, R for Data Analysis, Writing Reports with R Markdown"
 ---
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -46,25 +47,12 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endunless %}
 {% endif %}
 
-{% comment %}
-EVENTBRITE
+<h2 id="general">Registration</h2>
+<a href="{{page.googleform}}">Registration Link</a> You will need to sign in to your Google account to view the registration Google Forms. 
 
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
+<h2 id="general">General Information</h2>
+
+{% comment %}
 
 
 <h2 id="general">General Information</h2>
