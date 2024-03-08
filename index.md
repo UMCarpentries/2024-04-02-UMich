@@ -52,11 +52,6 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 <h2 id="general">General Information</h2>
 
 {% comment %}
-
-
-<h2 id="general">General Information</h2>
-
-{% comment %}
 INTRODUCTION
 
 Edit the general explanatory paragraph below if you want to change
